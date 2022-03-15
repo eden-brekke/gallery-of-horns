@@ -1,0 +1,60 @@
+article {
+  border: 5px double #4f405f;
+  padding: 1vw;
+  margin-bottom: 1vw;
+  width: 16%;
+  border-radius: 5px;
+}
+article h2 {
+  font-size: 0.9vw;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+article img {
+  width: 100%;
+  height: 50%;
+  border: 4px double #92D0CC;
+  border-radius: 5px;
+}
+article p {
+  font-size: 11px;
+  margin: auto;
+  display: inline-block;
+  margin-bottom: .5rem;
+  background-color:#92D0CC;
+  padding: 7px;
+  border: 2px solid #6d0359;
+  border-radius: 5px;
+  font-size: 0.7vw;
+  font-weight: bold;
+}
+
+article p:last-of-type {
+  font-size: 11px;
+  margin: auto;
+  display: inline-block;
+  margin-bottom: .5rem;
+  background-color:#b292d0;
+  padding: 7px;
+  border: 2px solid #4f405f;
+  color: #4f405f;
+  border-radius: 5px;
+  font-size: 0.7vw;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.fave-button {
+  margin: .2rem .1vw;
+  background-color: #D09BC6;
+  color: #6d0359;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 350ms;
+  border-color: #0e5a79;
+}
+
+.fave-button:hover {
+  background-color: #34e7db;
+  color: #176e69;
+}
