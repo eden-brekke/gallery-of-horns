@@ -149,6 +149,13 @@ Estimate of time needed to complete: _2hr____
 
 Start time: ___1:41pm__
 
-Finish time: ____
+Finish time: __3:24pm__
 
-Actual time needed to complete: _____
+Actual time needed to complete: ___About 1.7hours__
+
+* A question within the context of today’s lab assignment
+  * I.. got it to work but I don't think I understand fully what I've done. What is this power? Can I be trusted with it? There's a lot of communication between files and I think that's going to take some getting used to. I think I should next time spend some time drawing out the process. 
+* An observation about the lab assignment, or related ‘Ah-hah!’ moment
+  * I think my biggest ah-hah moment was when I realized that I needed to pass in a beast parameter into the show modal method I had created, nothing was working, even though I thought it should work as I had it, and as soon as I passed in that parameter and called it as a state, it worked! 
+* How long you spent working on this assignment
+  * I spent almost 2 hours on it but spent a lot of extra time trying to help others
