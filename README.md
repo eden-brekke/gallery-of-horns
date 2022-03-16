@@ -134,3 +134,21 @@ Actual time needed to complete: ___30min__
 In lieu of the Plagiarism talk this morning in lecture, I've been not adding a comment in my Readme to denote that I spend most of my time in lab with Ben and Tai, and we spend a lot of time bouncing ideas back and forth. 
 
 Tai was able to help me with my gituation where my whole virtual machine was being treated as a github repo, they're the best really, very helpful. 
+
+### more References! 
+[cool neat button](https://dev.to/webdeasy/top-20-css-buttons-animations-f41)<br>
+Ben showed us this neat site for cool button animations so I'll give him credit too but the code is from this site linked above.
+
+I added cards to my app and took some inspiration from Cole's code review today to add shadows :) 
+
+[React Container](https://react-bootstrap.github.io/layout/grid/) <br>
+
+Number and name of feature: _______Feature 1 Display A Modal_________
+
+Estimate of time needed to complete: _2hr____
+
+Start time: ___1:41pm__
+
+Finish time: ____
+
+Actual time needed to complete: _____
