@@ -1,21 +1,39 @@
 article {
-  border: 5px double #4f405f;
-  padding: 1vw;
   margin-bottom: 1vw;
-  width: 16%;
-  border-radius: 5px;
+  padding: 0.1vw;
+  width: auto;
 }
-article h2 {
-  font-size: 0.9vw;
+.h-100 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border-style: double;
+  border-color:#6d0359;
+  border-width: 3px;
+  background-color: #decbf0;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0.7vw 0.3vw 0.3vw #6d0359;
+}
+
+.card-head {
+  font-size: 1.2vw;
   margin-bottom: 30px;
   font-weight: bold;
+  border-style: solid;
+  border-color: #cca8ee;
+  border-radius: 20px;
 }
-article img {
+
+.card-img {
   width: 100%;
-  height: 50%;
+  height: 100%;
+  object-fit: cover;
   border: 4px double #92D0CC;
   border-radius: 5px;
+  margin-top: 5px;
 }
+
 article p {
   font-size: 11px;
   margin: auto;
@@ -44,17 +62,65 @@ article p:last-of-type {
   margin-top: 10px;
 }
 
+
 .fave-button {
-  margin: .2rem .1vw;
-  background-color: #D09BC6;
-  color: #6d0359;
-  font-weight: bold;
+  width: .2rem .1vw;
+  border: none;
+  outline: none;
+  color: white;
+  background:black;
   cursor: pointer;
-  transition: 350ms;
-  border-color: #0e5a79;
+  position: relative; 
+  z-index: 0;
+  border-radius: 10px;
+  margin: .2rem 0.3vw;
+
 }
 
-.fave-button:hover {
-  background-color: #34e7db;
-  color: #176e69;
+.fave-button:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  margin: .2rem .1vw;
+}
+
+
+.fave-button:active{
+  color: #000;
+}
+
+.fave-button:active:after{
+  background: transparent;
+}
+.fave-button:hover:before{
+  opacity: 1;
+}
+
+.fave-button:after{
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: .2rem .1vw;
+  margin: .2rem .1vw;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
 }

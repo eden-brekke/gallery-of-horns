@@ -128,3 +128,34 @@ Actual time needed to complete: ___30min__
   * It took me a bit of time to get the title and description rendering, and I think my ah-hah was pretty simple in realizing that it was exactly the same way I got the images to render, kind of silly but felt good to get it working properly. 
 * How long you spent working on this assignment
   * I spent about an hour working on this assignment overall. 
+
+
+## Lab 3
+In lieu of the Plagiarism talk this morning in lecture, I've been not adding a comment in my Readme to denote that I spend most of my time in lab with Ben and Tai, and we spend a lot of time bouncing ideas back and forth. 
+
+Tai was able to help me with my gituation where my whole virtual machine was being treated as a github repo, they're the best really, very helpful. 
+
+### more References! 
+[cool neat button](https://dev.to/webdeasy/top-20-css-buttons-animations-f41)<br>
+Ben showed us this neat site for cool button animations so I'll give him credit too but the code is from this site linked above.
+
+I added cards to my app and took some inspiration from Cole's code review today to add shadows :) 
+
+[React Container](https://react-bootstrap.github.io/layout/grid/) <br>
+
+Number and name of feature: _______Feature 1 Display A Modal_________
+
+Estimate of time needed to complete: _2hr____
+
+Start time: ___1:41pm__
+
+Finish time: __3:24pm__
+
+Actual time needed to complete: ___About 1.7hours__
+
+* A question within the context of today’s lab assignment
+  * I.. got it to work but I don't think I understand fully what I've done. What is this power? Can I be trusted with it? There's a lot of communication between files and I think that's going to take some getting used to. I think I should next time spend some time drawing out the process. 
+* An observation about the lab assignment, or related ‘Ah-hah!’ moment
+  * I think my biggest ah-hah moment was when I realized that I needed to pass in a beast parameter into the show modal method I had created, nothing was working, even though I thought it should work as I had it, and as soon as I passed in that parameter and called it as a state, it worked! 
+* How long you spent working on this assignment
+  * I spent almost 2 hours on it but spent a lot of extra time trying to help others
