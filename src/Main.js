@@ -40,7 +40,7 @@ class Main extends React.Component {
         />
 
         <Container>
-          <Row xs={1} sm={2} md={3} lg={4}>
+          <Row>
             {this.state.data.map((beast, index) => (
               <Col key={index}>
                 <HornedBeast
