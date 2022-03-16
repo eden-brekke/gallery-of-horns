@@ -18,7 +18,7 @@ class HornedBeast extends React.Component {
     });
   };
   handleClick = ()=>{
-    this.handleFaves();
+    // this.handleFaves();
     this.props.handleOpenModal(this.props.beast);
   };
 
