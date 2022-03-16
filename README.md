@@ -128,3 +128,9 @@ Actual time needed to complete: ___30min__
   * It took me a bit of time to get the title and description rendering, and I think my ah-hah was pretty simple in realizing that it was exactly the same way I got the images to render, kind of silly but felt good to get it working properly. 
 * How long you spent working on this assignment
   * I spent about an hour working on this assignment overall. 
+
+
+## Lab 3
+In lieu of the Plagiarism talk this morning in lecture, I've been not adding a comment in my Readme to denote that I spend most of my time in lab with Ben and Tai, and we spend a lot of time bouncing ideas back and forth. 
+
+Tai was able to help me with my gituation where my whole virtual machine was being treated as a github repo, they're the best really, very helpful. 
