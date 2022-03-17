@@ -159,3 +159,26 @@ Actual time needed to complete: ___About 1.7hours__
   * I think my biggest ah-hah moment was when I realized that I needed to pass in a beast parameter into the show modal method I had created, nothing was working, even though I thought it should work as I had it, and as soon as I passed in that parameter and called it as a state, it worked! 
 * How long you spent working on this assignment
   * I spent almost 2 hours on it but spent a lot of extra time trying to help others
+
+
+
+# Lab 4
+
+Number and name of feature: _______Feature 1 Display A dropdown form _________
+
+Estimate of time needed to complete: _30min____
+
+Start time: ___1:30pm__
+
+Finish time: __2pm__
+
+Actual time needed to complete: ___about 30min__
+
+* A link to the deployed version of your latest code.
+  * https://keen-cray-584d56.netlify.app/
+* A question within the context of today’s lab assignment
+  * Todays lab was pretty straight forward today. 
+* An observation about the lab assignment, or related ‘Ah-hah!’ moment
+  * I was pretty excited when I got the styling on the dropdown to work, I had forgotten to link my css page to the dropdown.js file, that extra step, since this is all new, is pretty easy to miss or forget. So I thought I was targeting the wrong thing. 
+* How long you spent working on this assignment
+  * not too long 30 minutes to get the form working, another 30 on the styling 
