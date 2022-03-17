@@ -12,7 +12,7 @@ main {
 }
 
 header {
-  background-color: #D09BC6;
+  
   text-align: center;
   width: auto;
   border-width: 3px;
@@ -23,7 +23,7 @@ header {
 
 footer {
   text-align: center;
-  background-color: #92D0CC;
+  background: linear-gradient(#c0f0ed, #f5d7ef);
   border-width: 3px;
   border-style: solid;
   border-radius: 5px;
