@@ -27,7 +27,7 @@ class HornedBeast extends React.Component {
       <article>
         <Card style={{ width: '18rem' }} className = "h-100">
 
-          <Card.Body>
+          <Card.Body className="card-body">
             <Card.Title className = "card-head">{this.props.title}</Card.Title>
 
             <Card.Text>😻I have {this.state.favorites} favorites!💖</Card.Text>
