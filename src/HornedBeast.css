@@ -67,8 +67,9 @@ article p:last-of-type {
   width: .2rem .1vw;
   border: none;
   outline: none;
-  color: white;
-  background:black;
+  font-weight: bold;
+  color: black;
+  background:#cca8ee;
   cursor: pointer;
   position: relative; 
   z-index: 0;

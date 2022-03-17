@@ -4,9 +4,10 @@ body {
 
 main {
   background: linear-gradient(#D09BC6, #92D0CC);
-  border-width: 3px;
+  border-width: 6px;
+  border-color: #b87bf1;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 20px;
   text-align: center;
 }
@@ -16,8 +17,9 @@ header {
   text-align: center;
   width: auto;
   border-width: 3px;
+  border-color: #b87bf1;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 20px;
 }
 
