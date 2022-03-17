@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import SelectedBeast from './SelectedBeast.js'
+import Dropdown from './Dropdown.js';
 import './Main.css';
 
 class Main extends React.Component {
@@ -15,6 +16,25 @@ class Main extends React.Component {
       beast: {},
     }
   }
+
+  handleSelect = (event) =>{
+    let selected = event.target.value;
+    if(selected === 'one'){
+      let selectedData = this.props.data.filter((data)=>data.horns === 1);
+      this.setState({data:selectedData});
+    }else if (selected === 'two'){
+      let selectedData = this.props.data.filter((data)=>data.horns === 2);
+      this.setState({data:selectedData});
+    }else if(selected === 'three'){
+      let selectedData = this.props.data.filter((data)=>data.horns === 3);
+      this.setState({data:selectedData});
+    }else if(selected === 'oneHundred'){
+      let selectedData = this.props.data.filter((data)=>data.horns === 100);
+      this.setState({data:selectedData});
+    }else {
+      this.setState({data:this.props.data});
+    }
+  };
 
   handleCloseModal = () => {
     this.setState({
@@ -39,10 +59,15 @@ class Main extends React.Component {
           handleCloseModal={this.handleCloseModal}
         />
 
+        <Dropdown 
+          handleSelect={this.handleSelect}
+          data={this.state.data}
+        />
+        
         <Container>
-          <Row>
+          <Row xs={1} sm={2} md={3} lg={3}>
             {this.state.data.map((beast, index) => (
-              <Col key={index}>
+              <Col key={index} className="mb-4">
                 <HornedBeast
                   beast={beast}
                   title={beast.title}

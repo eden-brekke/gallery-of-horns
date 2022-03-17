@@ -4,20 +4,19 @@ article {
 }
 
 .h-100 {
-  width: 20vw;
-  height: 70vh;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
   border-style: double;
   border-color:#6d0359;
   border-width: 3px;
-  background-color: #decbf0;
+  background:linear-gradient(#f5d7ef,#decbf0,#c0f0ed);
   padding: 10px;
   margin: 5px;
   box-shadow: 0.7vw 0.3vw 0.3vw #6d0359;
 }
 
 .card-head {
-  font-size: 1.2vw;
   margin-bottom: 30px;
   font-weight: bold;
   border-style: solid;
@@ -27,20 +26,19 @@ article {
 
 .card-img {
   width: 100%;
-  height: 18vw;
+  height: 20vw;
   border: 4px double #92D0CC;
   border-radius: 5px;
   margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .card-body {
-  font-size: 1em;
-  object-fit:fill;
+  /* object-fit:fill; */
 }
 article p {
-  font-size: 11px;
   margin: auto;
   display: inline-block;
   margin-bottom: .5rem;
@@ -48,12 +46,10 @@ article p {
   padding: 7px;
   border: 2px solid #6d0359;
   border-radius: 5px;
-  font-size: 0.7vw;
   font-weight: bold;
 }
 
 article p:last-of-type {
-  font-size: 11px;
   margin: auto;
   display: inline-block;
   margin-bottom: .5rem;
@@ -62,7 +58,6 @@ article p:last-of-type {
   border: 2px solid #4f405f;
   color: #4f405f;
   border-radius: 5px;
-  font-size: 0.7vw;
   font-weight: bold;
   margin-top: 10px;
 }
@@ -72,8 +67,9 @@ article p:last-of-type {
   width: .2rem .1vw;
   border: none;
   outline: none;
-  color: white;
-  background:black;
+  font-weight: bold;
+  color: black;
+  background:#cca8ee;
   cursor: pointer;
   position: relative; 
   z-index: 0;

@@ -4,26 +4,28 @@ body {
 
 main {
   background: linear-gradient(#D09BC6, #92D0CC);
-  border-width: 3px;
+  border-width: 6px;
+  border-color: #b87bf1;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 20px;
   text-align: center;
 }
 
 header {
-  background-color: #D09BC6;
+  
   text-align: center;
   width: auto;
   border-width: 3px;
+  border-color: #b87bf1;
   border-style: solid;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 20px;
 }
 
 footer {
   text-align: center;
-  background-color: #92D0CC;
+  background: linear-gradient(#c0f0ed, #f5d7ef);
   border-width: 3px;
   border-style: solid;
   border-radius: 5px;

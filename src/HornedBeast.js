@@ -18,14 +18,14 @@ class HornedBeast extends React.Component {
     });
   };
   handleClick = ()=>{
-    // this.handleFaves();
+    this.handleFaves();
     this.props.handleOpenModal(this.props.beast);
   };
 
   render() {
     return (
       <article>
-        <Card style={{ width: '18rem' }} className = "h-100">
+        <Card /*style={{ width: '18rem' }}*/ className = "h-100 m-1">
 
           <Card.Body className="card-body">
             <Card.Title className = "card-head">{this.props.title}</Card.Title>
