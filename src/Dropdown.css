@@ -1,0 +1,50 @@
+.form-label {
+ font-weight: bolder;
+ font-size: 24px;
+ background: linear-gradient(#c0f0ed, #f5d7ef);
+ border: 5px double #cca8ee;
+ margin: 5px;
+ padding: 10px;
+ border-radius: 20px;
+}
+
+.form-select {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background: linear-gradient(#f5d7ef, #c0f0ed);
+  border-color: #cca8ee;
+  border-width: 5px;
+  border-style: double;
+  border-radius: 20px;
+}
+
+.none {
+  background-color: #c0f0ed;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+.opOne {
+  background-color: #CEEAEE;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+.opTwo {
+  background-color: #DBE4EE;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+.opThree {
+  background-color: #E8DEEF;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+.opOneHundred {
+  background-color: #f5d7ef;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}

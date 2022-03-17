@@ -10,7 +10,7 @@ article {
   border-style: double;
   border-color:#6d0359;
   border-width: 3px;
-  background-color: #decbf0;
+  background:linear-gradient(#f5d7ef,#decbf0,#c0f0ed);
   padding: 10px;
   margin: 5px;
   box-shadow: 0.7vw 0.3vw 0.3vw #6d0359;
