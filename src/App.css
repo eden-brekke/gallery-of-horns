@@ -25,6 +25,7 @@ header {
 
 footer {
   text-align: center;
+  border-color: #b87bf1;
   background: linear-gradient(#c0f0ed, #f5d7ef);
   border-width: 3px;
   border-style: solid;
